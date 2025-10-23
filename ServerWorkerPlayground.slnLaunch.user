@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "ServerWorker",
+    "Projects": [
+      {
+        "Path": "PayNow\\PayNow.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "PayNowWorker\\PayNowWorker.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
