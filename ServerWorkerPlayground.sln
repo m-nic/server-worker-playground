@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayNow", "PayNow\PayNow.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayNowWorker", "PayNowWorker\PayNowWorker.csproj", "{A084E48F-F2DD-4898-83E4-49A96848414A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{34B062BC-4E9B-4871-ABAC-167C18AC64EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonContracts", "Common\CommonContracts.csproj", "{34B062BC-4E9B-4871-ABAC-167C18AC64EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboards", "Dashboards\Dashboards.csproj", "{3475FCC6-80EF-4E14-A3EA-405A8A07DC18}"
 EndProject

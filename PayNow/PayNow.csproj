@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -18,11 +18,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Properties\" />
+		<ProjectReference Include="..\Common\CommonContracts.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Common\Common.csproj" />
+	  <Folder Include="Properties\" />
 	</ItemGroup>
 
 </Project>

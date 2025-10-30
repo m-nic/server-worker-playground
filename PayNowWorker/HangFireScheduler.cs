@@ -1,4 +1,4 @@
-﻿using Common;
+﻿using CommonContracts;
 using MediatR;
 using System.Threading.Tasks;
 

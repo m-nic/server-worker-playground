@@ -1,5 +1,5 @@
-﻿using Common;
-using Common.Payment;
+﻿using CommonContracts;
+using CommonContracts.Payment;
 using Hangfire;
 using MediatR;
 using System;

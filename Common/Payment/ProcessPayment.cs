@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Common.Payment;
+namespace CommonContracts.Payment;
 public class ProcessPaymentCommand : IRequest
 {
     public int Amount { get; set; }

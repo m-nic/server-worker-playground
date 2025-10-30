@@ -1,4 +1,4 @@
-﻿using Common.Payment;
+﻿using CommonContracts.Payment;
 using MediatR;
 using System;
 using System.Threading;

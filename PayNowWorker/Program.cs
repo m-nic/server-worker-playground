@@ -1,4 +1,4 @@
-﻿using Common;
+﻿using CommonContracts;
 using Hangfire;
 using Microsoft.Extensions.DependencyInjection;
 using System;
