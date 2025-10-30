@@ -32,8 +32,5 @@ public class Startup
            .UseSimpleAssemblyNameTypeSerializer()
            .UseRecommendedSerializerSettings()
            .UseSqlServerStorage("Server=(localdb)\\MSSQLLocalDB; Database=HangfireTest; Integrated Security=True;");
-
-
-        app.UseHangfireDashboard();
     }
 }
