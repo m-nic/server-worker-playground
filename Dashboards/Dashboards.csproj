@@ -13,4 +13,8 @@
     <PackageReference Include="MiniProfiler.Providers.SqlServer" Version="4.5.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ServerWorkerPlaygroundAspire.ServiceDefaults\ServerWorkerPlaygroundAspire.ServiceDefaults.csproj" />
+  </ItemGroup>
+
 </Project>

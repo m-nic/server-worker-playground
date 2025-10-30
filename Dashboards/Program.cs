@@ -12,11 +12,14 @@ namespace Dashboards
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.AddServiceDefaults();
 
             ConfigureHangfire(builder);
             ConfigureMiniProfiler(builder);
 
             var app = builder.Build();
+
+            app.MapDefaultEndpoints();
 
             app.UseMiniProfiler();
             app.UseHangfireDashboard("");
